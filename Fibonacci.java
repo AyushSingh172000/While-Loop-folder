@@ -6,11 +6,11 @@ public class Fibonacci {
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter the number: ");
 		int n=sc.nextInt();
-		generateFibonacci(n);
+		getFib(n);
 	}
-	public static void generateFibonacci(int n)
+	public static void getFib(int n)
 	{
-		int n1=0;
+		int n1=2;
 		int n2=1;
 		System.out.print(n1+" "+n2+" ");
 		int i=1;
