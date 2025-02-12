@@ -10,7 +10,7 @@ public class Fibonacci {
 	}
 	public static void getFib(int n)
 	{
-		int n1=2;
+		int n1=0;
 		int n2=1;
 		System.out.print(n1+" "+n2+" ");
 		int i=1;
